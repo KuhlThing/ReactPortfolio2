@@ -49,7 +49,7 @@ const portfolio = () => {
                                     Project 1
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Laborum ad laborum reprehenderit ea laborum nisi.
+                                    Simple way to search for a news topic and compare headlines between two news sources.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
@@ -79,7 +79,7 @@ const portfolio = () => {
                                     Project 2
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Velit adipisicing pariatur ipsum tempor consectetur aute fugiat aliqua laborum irure consequat commodo occaecat nulla.
+                                    An app that collects subjective data on songs and matches them to your chosen mood.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -108,7 +108,7 @@ const portfolio = () => {
                                     Project 3
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Consectetur ullamco consequat ad duis qui proident dolor commodo magna.
+                                    A simple barebones app to balance your personal budget.
                                 </Typography>
                             </CardContent>                        
                             </CardActionArea>
@@ -137,7 +137,7 @@ const portfolio = () => {
                                     Project 4
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Sunt minim duis qui qui nostrud ex id aliqua eu. Labore adipisicing do tempor occaecat veniam sunt laboris nostrud sit in consectetur veniam aliquip ut.
+                                    This app generates a password made up of random characters based on parameters chosen by the user such as length and character type.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
