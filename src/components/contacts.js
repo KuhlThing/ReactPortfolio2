@@ -13,28 +13,28 @@ const UseStyles = makeStyles((theme) => ({
     },
     button: {
       marginTop: "1rem",
-      color: "tomato",
-      borderColor: "tomato",
+      color: "#985F6F",
+      borderColor: "#985F6F",
     },
   }));
 
 const InputField = withStyles({
     root: {
         "& label.Mui-focused": {
-            color: "tomato",
+            color: "#985F6F",
         },
         "& label": {
-            color: "tan",
+            color: "#F7C4A5",
         },
         "& .MuiOutlinedInput-root": {
             "& fieldset": {
-                borderColor: "tan",
+                borderColor: "#F7C4A5",
             },
             "&:hover fieldset": {
-                borderColor: "tan",
+                borderColor: "#F7C4A5",
             },
             "&.Mui-focused fieldset": {
-                borderColor: "tan",
+                borderColor: "#F7C4A5",
             },
         },
     },
@@ -47,7 +47,7 @@ const contacts = () => {
             <Navbar />
             <Grid container justify="center">
                 <Box component="form" className={classes.form}>
-                    <Typography variant="h5" style={{color: "tomato", textAlign: "center", textTransform: "uppercase"}}>
+                    <Typography variant="h5" style={{color: "#985F6F", textAlign: "center", textTransform: "uppercase"}}>
                         hire or contact me...
                     </Typography>
                     <InputField

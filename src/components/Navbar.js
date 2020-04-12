@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
         height: theme.spacing(13)
     },
     listItem: {
-        color: "tan"
+        color: "#F7C4A5"
     }
 }));
 
@@ -101,9 +101,9 @@ const Navbar = () => {
                 <AppBar position="static" style={{ background: "#222" }}>
                     <Toolbar>
                         <IconButton onClick={toggleSlider("right", true)}>
-                            <ArrowBack style={{ background: "tomato" }} />
+                            <ArrowBack style={{ background: "#985F6F" }} />
                         </IconButton>
-                        <Typography variant="h5" style={{ color: "tan" }}>
+                        <Typography variant="h5" style={{ color: "#F7C4A5" }}>
                             Portfolio
                     </Typography>
                         <MobilRightMenuSlider
